@@ -23,53 +23,53 @@ import postgresql from "../../public/web-tech-icons/PostgreSQL.svg";
 import tailwindcss from "../../public/web-tech-icons/Tailwind CSS.svg";
 
 export type UsedTechsDataType = {
- img: any;
- name: string;
- link: string;
+  img: any;
+  name: string;
+  link: string;
 };
 
 export const UsedTechsData: UsedTechsDataType[] = [
- {
-  img: dotnetcore,
-  name: ".Net Core",
-  link: "https://dotnet.microsoft.com/en-us/download",
- },
- { img: nodejs, name: "Node.Js", link: "https://nodejs.org/" },
- { img: reactjs, name: "React.Js", link: "https://reactjs.org/" },
- { img: nextjs, name: "Next.Js", link: "https://nextjs.org/" },
- {
-  img: js,
-  name: "Javascript",
-  link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
- },
- { img: ts, name: "Typescript", link: "https://www.typescriptlang.org/" },
- {
-  img: csharp,
-  name: "C#",
-  link: "https://learn.microsoft.com/en-us/dotnet/csharp/",
- },
- { img: postgresql, name: "PostgreSQL", link: "https://www.postgresql.org/" },
- { img: express, name: "Express", link: "https://expressjs.com/" },
- { img: mongodb, name: "MongoDB", link: "https://www.mongodb.com/" },
- { img: nginx, name: "NGINX", link: "https://www.nginx.com/" },
- { img: git, name: "Git", link: "https://git-scm.com/" },
- { img: npm, name: "npm", link: "https://www.npmjs.com/" },
- { img: threejs, name: "Three.js", link: "https://threejs.org/" },
- { img: docker, name: "Docker", link: "https://www.docker.com/" },
- { img: nodemon, name: "Nodemon", link: "https://nodemon.io/" },
- {
-  img: css,
-  name: "CSS3",
-  link: "https://www.w3.org/Style/CSS/Overview.en.html",
- },
- {
-  img: html,
-  name: "HTML5",
-  link: "https://developer.mozilla.org/en-US/docs/Web/HTML",
- },
- { img: github, name: "GitHub", link: "https://github.com/" },
- { img: ubuntu, name: "Ubuntu", link: "https://ubuntu.com/" },
- { img: vercel, name: "Vercel", link: "https://vercel.com/" },
- { img: antd, name: "Ant Design", link: "https://ant.design/" },
- { img: tailwindcss, name: "Tailwind CSS", link: "https://tailwindcss.com/" },
+  {
+    img: dotnetcore,
+    name: ".Net Core",
+    link: "https://dotnet.microsoft.com/en-us/download",
+  },
+  { img: nodejs, name: "Node.Js", link: "https://nodejs.org/" },
+  { img: reactjs, name: "React.Js", link: "https://reactjs.org/" },
+  { img: nextjs, name: "Next.Js", link: "https://nextjs.org/" },
+  {
+    img: js,
+    name: "Javascript",
+    link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+  },
+  { img: ts, name: "Typescript", link: "https://www.typescriptlang.org/" },
+  {
+    img: csharp,
+    name: "C#",
+    link: "https://learn.microsoft.com/en-us/dotnet/csharp/",
+  },
+  { img: postgresql, name: "PostgreSQL", link: "https://www.postgresql.org/" },
+  { img: express, name: "Express", link: "https://expressjs.com/" },
+  { img: mongodb, name: "MongoDB", link: "https://www.mongodb.com/" },
+  { img: nginx, name: "NGINX", link: "https://www.nginx.com/" },
+  { img: git, name: "Git", link: "https://git-scm.com/" },
+  { img: npm, name: "npm", link: "https://www.npmjs.com/" },
+  { img: threejs, name: "Three.js", link: "https://threejs.org/" },
+  { img: docker, name: "Docker", link: "https://www.docker.com/" },
+  { img: nodemon, name: "Nodemon", link: "https://nodemon.io/" },
+  {
+    img: css,
+    name: "CSS3",
+    link: "https://www.w3.org/Style/CSS/Overview.en.html",
+  },
+  {
+    img: html,
+    name: "HTML5",
+    link: "https://developer.mozilla.org/en-US/docs/Web/HTML",
+  },
+  { img: github, name: "GitHub", link: "https://github.com/" },
+  { img: ubuntu, name: "Ubuntu", link: "https://ubuntu.com/" },
+  { img: vercel, name: "Vercel", link: "https://vercel.com/" },
+  { img: antd, name: "Ant Design", link: "https://ant.design/" },
+  { img: tailwindcss, name: "Tailwind CSS", link: "https://tailwindcss.com/" },
 ];
